@@ -1,0 +1,1 @@
+const S=({startTime:n,endTime:e})=>{const o=new Date(n),t=new Date(e).getTime()-o.getTime(),s=Math.floor(t/(1e3*60*60)),a=Math.floor(t%(1e3*60*60)/(1e3*60)),c=Math.floor(t%(1e3*60)/1e3),r=(String(s)||"0").padStart(2,"0"),i=(String(a)||"0").padStart(2,"0"),d=(String(c)||"0").padStart(2,"0");return`${r}:${i}:${d}`};export{S as c};
