@@ -1,0 +1,1 @@
+import{h as t}from"./http-Cr7o0t0N.js";function a(e){return t.post("/VIPSystem/api/common/upload",e,{headers:{"Content-Type":"multipart/form-data"}})}function i(e=""){return e?new Promise(o=>{t.get(e).then(r=>r.text().then(o))}):Promise.resolve("")}export{a as U,i as g};
