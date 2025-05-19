@@ -1,0 +1,1 @@
+import{h as e}from"./http-Cr7o0t0N.js";function r(t){return e.get("/VIPSystem/api/auto_test/project_list",{params:t})}function s(t){return e.post("/VIPSystem/api/auto_test/project",t)}function a(t){return e.put("/VIPSystem/api/auto_test/project",t)}function u(t){return e.delete("/VIPSystem/api/auto_test/project",{data:{ids:t}})}export{s as A,u as D,r as G,a as P};
