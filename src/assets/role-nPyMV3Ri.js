@@ -1,0 +1,1 @@
+import{h as e}from"./http-Cr7o0t0N.js";function o(t){return e.get("/VIPSystem/api/system/role_list",{params:t})}function r(t){return e.post("/VIPSystem/api/system/role",t)}function n(t){return e.put("/VIPSystem/api/system/role",t)}function a(t){return e.delete("/VIPSystem/api/system/role",{data:{ids:t}})}export{r as A,a as D,o as G,n as P};
