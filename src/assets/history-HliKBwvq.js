@@ -1,0 +1,1 @@
+import{h as r}from"./http-Cr7o0t0N.js";function o(t){return r.get("/VIPSystem/api/auto_test/record_list",{params:t})}function s(t){return r.get("/VIPSystem/api/auto_test/record",{params:{recordId:t}})}export{o as G,s as a};
