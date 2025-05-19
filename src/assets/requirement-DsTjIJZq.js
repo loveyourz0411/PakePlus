@@ -1,0 +1,1 @@
+import{h as e}from"./http-Cr7o0t0N.js";function u(t){return e.post("/VIPSystem/api/auto_test/requirement",t)}function n(t){return e.put("/VIPSystem/api/auto_test/requirement",t)}function i(t){return e.get("/VIPSystem/api/auto_test/requirement_list",{params:t})}function s(t){return e.delete("/VIPSystem/api/auto_test/requirement",{data:{ids:t}})}export{u as A,s as D,n as P,i as g};
