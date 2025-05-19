@@ -1,0 +1,1 @@
+import{u as i}from"./useObserverMsg-mppqzyYd.js";import{a_ as m}from"./index-Dju9e0Mk.js";function c(r,s){const{time:n,refresh:t}=i(s),o=m("environment"),e=()=>o==="PREVIEW"&&t(r);return e(),{time:n,refresh:e}}export{c as u};
