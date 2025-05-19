@@ -1,0 +1,1 @@
+import{c as r}from"./index-Dju9e0Mk.js";const l=({name:t,color:i="#000",size:e=16})=>r("svg",{style:"cursor: pointer;","aria-hidden":!0,width:+e,height:+e,fill:i},[r("use",{"xlink:href":`#${t}`},null)]);export{l as default};
